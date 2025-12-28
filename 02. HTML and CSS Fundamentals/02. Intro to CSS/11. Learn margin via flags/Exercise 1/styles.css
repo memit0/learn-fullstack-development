@@ -1,5 +1,5 @@
 body {
-    margin:0;
+    margin: 0;
 }
 
 .red {
@@ -7,7 +7,7 @@ body {
     height: 100px;
     /*Challenge:
     Add 100px of margin on the bottom of the red box. */
-    
+    margin-bottom: 100px;
 }
 
 .blue {
@@ -19,4 +19,3 @@ body {
     background: #397327;
     height: 100px;
 }
-
