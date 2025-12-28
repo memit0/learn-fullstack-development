@@ -7,7 +7,6 @@ body {
 }
 
 .card {
-    border: 1px dotted blue;
     padding: 20px;
     display: flex;
 }
@@ -17,3 +16,7 @@ Challenge:
 Create a utility class for the dotted blue border.
 Give the class to both flexbox children in the HTML.
 */
+
+.dotted-blue-border {
+    border: 1px dotted blue;
+}

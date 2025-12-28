@@ -8,11 +8,12 @@ body {
 
 article {
     text-align: center;
+    font-weight: bold;
 }
 
 /*
 Challenge:
-Navigate to the Stack Overflow question and pick a 
+Navigate to the Stack Overflow question and pick a
 few inherited CSS properties. Add them to the article
 tag to see how they work.
 */
