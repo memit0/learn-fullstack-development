@@ -3,16 +3,18 @@ body {
     background-image: url("images/universe.jpg");
     background-size: cover;
     text-align: center;
-    /* 
-    Set the font family here. 
+    /*
+    Set the font family here.
     */
+    font-family: "Orbitron";
 }
 
 .btn {
     padding: 6px 12px;
     background: white;
     border: none;
-    /* 
+    font-family: inherit;
+    /*
     You'll need to do something here as well!
     Can you spot what it is?
     */

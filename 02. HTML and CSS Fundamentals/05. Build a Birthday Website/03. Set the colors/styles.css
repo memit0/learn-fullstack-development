@@ -9,10 +9,13 @@ white: #ffffff
 
 body {
     text-align: center;
-    font-family: 'Happy Monkey', cursive;
+    font-family: "Happy Monkey", cursive;
+    background-color: #a2d2ff;
+    color: #ffffff;
 }
 
 #bff-img {
     width: 150px;
     border-radius: 50%;
+    border: 5px solid #efb0c9;
 }

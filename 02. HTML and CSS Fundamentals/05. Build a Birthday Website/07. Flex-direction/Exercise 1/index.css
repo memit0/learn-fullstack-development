@@ -5,18 +5,18 @@
     Challenge:
     Follow my orders on where we should
     leave our lab equipment!
-    
+
     justify-content:
-    start, center, end, space-around, 
+    start, center, end, space-around,
     space-evenly, space-between
-    
+
     align-items:
     start, center, end
     */
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: center;
+    align-items: start;
 }
 
 .item {

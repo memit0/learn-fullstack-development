@@ -1,18 +1,22 @@
 body {
     text-align: center;
-    font-family: 'Happy Monkey', cursive;
+    font-family: "Happy Monkey", cursive;
     background: #a2d2ff;
     color: #ffffff;
 }
 
-h1, h2, h3, h4, p {
+h1,
+h2,
+h3,
+h4,
+p {
     text-shadow: 0 0 1px black;
 }
 
 #bff-img {
     width: 150px;
     border-radius: 50%;
-    border: 6px solid #EFB0C9;
+    border: 6px solid #efb0c9;
     margin-bottom: 10px;
 }
 
@@ -23,11 +27,16 @@ provided design slide.
 */
 
 #bday-age {
-    background: #EFB0C9;
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
 }
 
 #bday-date {
-    background: #EFB0C9;
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 #header {

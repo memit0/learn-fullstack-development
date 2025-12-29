@@ -1,23 +1,27 @@
 body {
     text-align: center;
-    font-family: 'Happy Monkey', cursive;
+    font-family: "Happy Monkey", cursive;
     background: #a2d2ff;
     color: #ffffff;
 }
 
-h1, h2, h3, h4, p {
+h1,
+h2,
+h3,
+h4,
+p {
     text-shadow: 0 0 1px black;
 }
 
 #bff-img {
     width: 150px;
     border-radius: 50%;
-    border: 6px solid #EFB0C9;
+    border: 6px solid #efb0c9;
     margin-bottom: 10px;
 }
 
 #bday-age {
-    background: #EFB0C9;
+    background: #efb0c9;
     padding: 5px 10px;
     border-radius: 5px;
     margin: 5px 0 10px 0;
@@ -25,7 +29,7 @@ h1, h2, h3, h4, p {
 
 #bday-date {
     margin: 0;
-    background: #EFB0C9;
+    background: #efb0c9;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -58,19 +62,23 @@ h1, h2, h3, h4, p {
     background-size: cover;
 }
 
-.gift-img:hover {
+#gift1:hover {
     background-image: url("images/happy.gif");
+}
+
+#gift2:hover {
+    background-image: url("images/hot.gif");
 }
 
 /*
 Challenge:
-Create the next GIFt (hot.gif). Its HTML structure 
-should be like the previous one, but without the 
+Create the next GIFt (hot.gif). Its HTML structure
+should be like the previous one, but without the
 "gift-hint" element.
 
 However, now that you have multiple GIFts on the page,
-you cannot use the "gift-img" class to set the GIF 
-background-image(s) on :hover. Each GIFt will need a 
-unique id that controls which background image that 
+you cannot use the "gift-img" class to set the GIF
+background-image(s) on :hover. Each GIFt will need a
+unique id that controls which background image that
 should be shown when hovering over the element.
 */
