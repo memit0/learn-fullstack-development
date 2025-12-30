@@ -2,4 +2,5 @@
 // "Something went wrong, please try again" in the paragraph
 // that has the id="error".
 
-
+document.getElementById("error").textContent =
+  "Something went wrong, please try again";
