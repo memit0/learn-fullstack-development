@@ -1,14 +1,30 @@
 <html>
     <head>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="index.css" />
     </head>
     <body>
         <div class="container">
             <div>
                 <h3>HOME</h3>
+                <div class="scorecard">
+                    <p id="home-score" class="score">0</p>
+                </div>
+                <div>
+                    <button onclick="incrementHomeByOne()">+1</button>
+                    <button onclick="incrementHomeByThree()">+3</button>
+                    <button onclick="incrementHomeByFive()">+5</button>
+                </div>
             </div>
             <div>
                 <h3>GUEST</h3>
+                <div class="scorecard">
+                    <p id="guest-score" class="score">0</p>
+                </div>
+                <div>
+                    <button onclick="incrementGuestByOne()">+1</button>
+                    <button onclick="incrementGuestByThree()">+3</button>
+                    <button onclick="incrementGuestByFive()">+5</button>
+                </div>
             </div>
         </div>
         <script src="index.js"></script>

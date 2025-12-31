@@ -1,8 +1,42 @@
 body {
     margin: 0;
+    background-color: darkblue;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    color: white;
+    margin: 20px 5px 0;
+    text-align: center;
+    background-color: darkblue;
+    border: 1px solid white;
+}
+
+.score {
+    font-size: 50px;
+    color: red;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.scorecard {
+    border: 3px solid black;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    background-color: black;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
