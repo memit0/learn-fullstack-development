@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <h1>Generate a random password</h1>
+        <div class="slidecontainer">
+            <div id="length-display">Length:</div>
+            <input
+                type="range"
+                min="8"
+                max="15"
+                value="10"
+                class="slider"
+                id="myRange"
+            />
+        </div>
+        <button onclick="generatePasswords()" id="generate-password">
+            Generate passwords
+        </button>
+        <div>
+            <div id="password-display">
+                <div type="text" class="password"></div>
+                <div type="text" class="password"></div>
+                <div type="text" class="password"></div>
+                <div type="text" class="password"></div>
+            </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>

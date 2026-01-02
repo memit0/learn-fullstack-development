@@ -1,0 +1,57 @@
+h1 {
+    font-size: 50px;
+    font-family: "Cedarville Cursive", cursive;
+    text-align: center;
+}
+
+body {
+    font-family: Proxima Nova;
+    font-weight: lighter;
+}
+
+.subsection {
+    text-decoration: none;
+    color: black;
+    border: none;
+    background-color: white;
+}
+
+#subtitle {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    color: black;
+}
+
+.subsection:hover {
+    font-size: 110%;
+}
+
+#avatar {
+    width: 200px;
+    height: auto;
+    border: dotted 5px pink;
+}
+
+#avatar:hover {
+    border-color: white;
+}
+
+#about-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+#about-text h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+#about-text p {
+    margin: 10px 0;
+    max-width: 400px;
+}
