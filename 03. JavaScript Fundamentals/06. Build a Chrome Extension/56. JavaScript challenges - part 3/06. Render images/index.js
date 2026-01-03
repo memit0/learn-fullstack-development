@@ -2,9 +2,16 @@
 // Use a for loop, template strings (``), plus equals (+=)
 // .innerHTML to solve the challenge.
 
-const imgs = [
-    "images/hip1.jpg",
-    "images/hip2.jpg",
-    "images/hip3.jpg"
-]
+const imgs = ["images/hip1.jpg", "images/hip2.jpg", "images/hip3.jpg"];
 
+const container = document.getElementById("container");
+
+function renderImages() {
+  let imgsDom = "";
+  for (let i = 0; i < imgs.length; i++) {
+    imgsDom += `<img src="${imgs[i]}" alt="Team Member ${i + 1}">`;
+  }
+  container.innerHTML = imgsDom;
+}
+
+renderImages();
